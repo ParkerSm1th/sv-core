@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="shared" />
     <orderEntry type="library" name="spigot-1.8.8" level="project" />
     <orderEntry type="library" name="TaskChain" level="project" />
     <orderEntry type="library" name="mongo-java-driver-3.4.0" level="project" />
     <orderEntry type="library" name="ProtocolLib" level="project" />
     <orderEntry type="library" name="ViaVersion-1.3.0" level="project" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="spigot-1.8.8-R0.1-SNAPSHOT-latest (2)" level="project" />
+    <orderEntry type="library" name="ProtocolLib (2)" level="project" />
+    <orderEntry type="library" name="viaversion-2.1.3" level="project" />
+    <orderEntry type="library" name="shared" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.12.2" level="project" />
+    <orderEntry type="library" name="Maven: io.parkersmith:shared:1.0-snapshot" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:bson:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: io.parkersmith:spigot:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/spigot.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: com.comphenix.protocol:ProtocolLib:4.5.0" level="project" />
+    <orderEntry type="library" name="Maven: cglib:cglib-nodep:3.2.5" level="project" />
+    <orderEntry type="library" name="Maven: com.comphenix.executors:BukkitExecutors:1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-common:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.18" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-bukkit:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-bungee:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-sponge:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-sponge-legacy:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: us.myles:viaversion-velocity:2.1.3" level="project" />
+    <orderEntry type="library" name="Maven: net.md-5:bungeecord-chat:1.14-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
   </component>
 </module>
